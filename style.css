@@ -8,6 +8,10 @@ Author URI: http://arttechti.com.br
 
 /* Global */
 
+.section-home {
+    background-image: url("./assets/home/background-top.png");
+}
+
 * {
   vertical-align: baseline;
   list-style: none;
