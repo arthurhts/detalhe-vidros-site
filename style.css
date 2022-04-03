@@ -6,5 +6,102 @@ Author: ARTHUR TEIXEIRA
 Author URI: http://arttechti.com.br
 */
 
-@import url("./css/bootstrap.min.css");
+* {
+  vertical-align: baseline;
+  list-style: none;
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
 
+html,
+body {
+  font-family: "Oswald", sans-serif;
+  height: 100vh;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-size: 62.5%; /* 10px a cada um 1rem*/
+}
+
+body {
+  font-size: 1.6rem; /* 10px a cada um 1rem*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+
+.nav-home {
+  background-color: transparent !important;
+  opacity: 0 !important;
+}
+
+.menu-home {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.top-home {
+  background-image: url(assets/images/home/background-home.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  text-transform: uppercase !important;
+  color: #000 !important;
+}
+
+.top-home .menu-item {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.top-home .current-menu-item {
+  border: 1px solid #000;
+}
+
+.top-home .nav-link:hover {
+  color: rgba(0, 0, 0);
+}
+.top-home .navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0);
+}
+
+.content-top {
+  height: 100vh;
+}
+
+.box-top {
+  display: flex;
+  background-color: #000;
+  opacity: 0.8;
+  max-width: 500px;
+  color: #fff;
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.list-products-home .item {
+  background-color: honeydew;
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.list-products-home .item .product-espelho {
+  background-image: url(assets/images/home/background-home.png);
+}
