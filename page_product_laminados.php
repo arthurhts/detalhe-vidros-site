@@ -1,14 +1,14 @@
 <?php
  /*
-Template Name: PAGINA SOBRE NÓS
+Template Name: PRODUTO LAMINADOS
 */
 ?>
 <?php get_header(); ?>
 
 <div class="header-page container-page">
     <div class="container">
-        <h2>Nossa Empresa</h2>
-        <div>HOME > NOSSA EMPRESA</div>
+        <h2>Vidros Laminados</h2>
+        <div>HOME > VIDROS LAMINADOS</div>
     </div>
 </div>
 

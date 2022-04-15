@@ -1,14 +1,14 @@
 <?php
  /*
-Template Name: PAGINA SOBRE NÓS
+Template Name: PRODUTO VARANDAS
 */
 ?>
 <?php get_header(); ?>
 
 <div class="header-page container-page">
     <div class="container">
-        <h2>Nossa Empresa</h2>
-        <div>HOME > NOSSA EMPRESA</div>
+        <h2>Fechamento de Sacadas</h2>
+        <div>HOME > FECHAMENTO DE SACADAS</div>
     </div>
 </div>
 

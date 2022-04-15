@@ -1,14 +1,14 @@
 <?php
  /*
-Template Name: PAGINA SOBRE NÓS
+Template Name: PRODUTO ESPELHO
 */
 ?>
 <?php get_header(); ?>
 
 <div class="header-page container-page">
     <div class="container">
-        <h2>Nossa Empresa</h2>
-        <div>HOME > NOSSA EMPRESA</div>
+        <h2>Espelhos</h2>
+        <div>HOME > ESPELHOS</div>
     </div>
 </div>
 

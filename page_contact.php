@@ -5,40 +5,43 @@ Template Name: PAGINA CONTATO
 ?>
 <?php get_header(); ?>
 
-<section class="top-home">
-    <div class="menu-home">
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu"
-                    aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="main-menu">
-                    <?php
-            wp_nav_menu(array(
-                'theme_location' => 'main-menu',
-                'container' => false,
-                'menu_class' => '',
-                'fallback_cb' => '__return_false',
-                'items_wrap' => '<ul id="%1$s" class="navbar-nav me-auto mb-2 mb-md-0 %2$s">%3$s</ul>',
-                'depth' => 2,
-                'walker' => new bootstrap_5_wp_nav_menu_walker()
-            ));
-            ?>
-                </div>
-            </div>
-        </nav>
+<div class="header-page container-page">
+    <div class="container">
+        <h2>Contato</h2>
+        <div>HOME > CONTATO</div>
     </div>
-</section>
+</div>
 
-<section class="list-products">
+<div class="container content-page content-page-about">
+    <div class="row">
+        <div class="col-md-4 mb-4"><img src="<?php bloginfo('template_url'); ?>/assets/images/home/logo-topo-home.png">
+        </div>
+        <div class="col-md-8">
+            <section class="spacing-bottom">
+                <h3>SOBRE NÓS</h3>
+                A Detalhe Vidros surgiu da necessidade de seus fundadores em querer prestar um serviço diferente,
+                melhor, com preço justo, respeitando as normas técnicas e principalmente o cliente. Com pouco mais de 15
+                anos de experiência no segmento, nosso intuito é melhorar e modernizar o atendimento ao cliente do
+                início ao fim, oferecendo ideias e soluções inovadoras compatíveis com a sua realidade.
+            </section>
+            <section class="spacing-bottom">
+                <h3>MISSÃO</h3>
+                Realizar os sonhos e necessidades dos clientes por meio da execução de projetos arquitetônicos.
+            </section>
+            <section class="spacing-bottom">
+                <h3>VISÃO</h3>
+                Ser referência no segmento quando o assunto for vidros e espelhos e, principalmente ser lembrado por
+                nossos valores.
+            </section>
 
-</section>
+            <section class="spacing-bottom">
+                <h3>VALORES</h3>
+                Por trás de cada projeto executado existe um ser humano que acreditou em nós e pagou pelo nosso serviço,
+                por esse motivo, compromisso, respeito, transparência, ética e disponibilidade são fundamentais.
+            </section>
+        </div>
+    </div>
+</div>
 
-<h1 class="text-center">Hello World</h1>
-<h1 class="text-center">Hello World</h1>
-<h1 class="text-center">Hello World</h1>
-<h1 class="text-center">Hello World</h1>
 
 <?php get_footer(); ?>
