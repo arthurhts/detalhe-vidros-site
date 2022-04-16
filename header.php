@@ -36,7 +36,7 @@
 <body>
 
     <section class="top-menu-header" id="topnav">
-        <nav class="navbar fixed-top navbar-expand-md navbar-light">
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu"
                     aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">

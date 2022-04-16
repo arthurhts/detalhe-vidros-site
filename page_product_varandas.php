@@ -1,44 +1,43 @@
 <?php
  /*
-Template Name: PRODUTO VARANDAS
+Template Name: PRODUTO VARANDA
 */
 ?>
 <?php get_header(); ?>
 
 <div class="header-page container-page">
     <div class="container">
-        <h2>Fechamento de Sacadas</h2>
-        <div>HOME > FECHAMENTO DE SACADAS</div>
+        <h2>Fechamento de Varandas</h2>
+        <div>HOME > FECHAMENTO DE VARANDAS</div>
     </div>
 </div>
 
-<div class="container content-page content-page-about">
+<div class="container content-page">
     <div class="row">
-        <div class="col-md-4 mb-4"><img src="<?php bloginfo('template_url'); ?>/assets/images/home/logo-topo-home.png">
-        </div>
-        <div class="col-md-8">
+        <div class="col-md-6">
             <section class="spacing-bottom">
-                <h3>SOBRE NÓS</h3>
-                A Detalhe Vidros surgiu da necessidade de seus fundadores em querer prestar um serviço diferente,
-                melhor, com preço justo, respeitando as normas técnicas e principalmente o cliente. Com pouco mais de 15
-                anos de experiência no segmento, nosso intuito é melhorar e modernizar o atendimento ao cliente do
-                início ao fim, oferecendo ideias e soluções inovadoras compatíveis com a sua realidade.
+                <div class="product-title">FECHAMENTO DE VARANDAS <span>DETALHE VIDROS</span pan></div>
+                Estamos falando de uma situação cada vez mais recorrente nas residências hoje em dia. Além da parte
+                estética do fechamento, podemos citar alguns benefícios funcionais, tais como: integração de ambientes,
+                redução de calor e entrada de luz, conservação da limpeza do ambiente e versatilidade na abertura dos
+                vãos.
             </section>
-            <section class="spacing-bottom">
-                <h3>MISSÃO</h3>
-                Realizar os sonhos e necessidades dos clientes por meio da execução de projetos arquitetônicos.
-            </section>
-            <section class="spacing-bottom">
-                <h3>VISÃO</h3>
-                Ser referência no segmento quando o assunto for vidros e espelhos e, principalmente ser lembrado por
-                nossos valores.
-            </section>
+            <section>
+                <ul class="list-bullet">
+                    <li>Stanley Comum;</li>
+                    <li>Stanley Invertido;</li>
+                    <li>Slide Door;</li>
 
-            <section class="spacing-bottom">
-                <h3>VALORES</h3>
-                Por trás de cada projeto executado existe um ser humano que acreditou em nós e pagou pelo nosso serviço,
-                por esse motivo, compromisso, respeito, transparência, ética e disponibilidade são fundamentais.
+                </ul>
             </section>
+        </div>
+        <div class="col-md-6"><img class="img-fluid"
+                src="<?php bloginfo('template_url'); ?>/assets/images/global/imagem-produto.png">
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <div class="product-title">PORTÍFOLIO <span>DE FECHAMENTO DE VARANDAS</span pan></div>
         </div>
     </div>
 </div>

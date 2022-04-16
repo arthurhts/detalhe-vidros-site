@@ -1,6 +1,6 @@
 <?php
  /*
-Template Name: PRODUTO SACADAS
+Template Name: PRODUTO SACADA
 */
 ?>
 <?php get_header(); ?>
@@ -12,33 +12,31 @@ Template Name: PRODUTO SACADAS
     </div>
 </div>
 
-<div class="container content-page content-page-about">
+<div class="container content-page">
     <div class="row">
-        <div class="col-md-4 mb-4"><img src="<?php bloginfo('template_url'); ?>/assets/images/home/logo-topo-home.png">
+        <div class="col-md-6">
+            <section class="spacing-bottom">
+                <div class="product-title">FECHAMENTO DE SACADAS <span>DETALHE VIDROS</span pan></div>
+                Produto também personalizável destinado principalmente a apartamentos, podendo também ser aplicado a
+                varanda de residências. Trabalhamos com Sistemas Premium, sem roldanas, seguindo as normas técnicas de
+                espessura mínima de vidros, películas se necessário e fornecimento de documentação de responsabilidade
+                técnica. Possui vários benefícios, como por exemplo: versatilidade, mais de 95% de abertura e 99% de
+                estanqueidade, isolamento sonoro, integração e conservação de ambientes, entre outros.
+            </section>
+            <section>
+                <ul class="list-bullet">
+                    <li>Fechamento de sacadas em vidro;</li>
+                    <li>Sistemas sem Roldanas Premium;</li>
+                </ul>
+            </section>
         </div>
-        <div class="col-md-8">
-            <section class="spacing-bottom">
-                <h3>SOBRE NÓS</h3>
-                A Detalhe Vidros surgiu da necessidade de seus fundadores em querer prestar um serviço diferente,
-                melhor, com preço justo, respeitando as normas técnicas e principalmente o cliente. Com pouco mais de 15
-                anos de experiência no segmento, nosso intuito é melhorar e modernizar o atendimento ao cliente do
-                início ao fim, oferecendo ideias e soluções inovadoras compatíveis com a sua realidade.
-            </section>
-            <section class="spacing-bottom">
-                <h3>MISSÃO</h3>
-                Realizar os sonhos e necessidades dos clientes por meio da execução de projetos arquitetônicos.
-            </section>
-            <section class="spacing-bottom">
-                <h3>VISÃO</h3>
-                Ser referência no segmento quando o assunto for vidros e espelhos e, principalmente ser lembrado por
-                nossos valores.
-            </section>
-
-            <section class="spacing-bottom">
-                <h3>VALORES</h3>
-                Por trás de cada projeto executado existe um ser humano que acreditou em nós e pagou pelo nosso serviço,
-                por esse motivo, compromisso, respeito, transparência, ética e disponibilidade são fundamentais.
-            </section>
+        <div class="col-md-6"><img class="img-fluid"
+                src="<?php bloginfo('template_url'); ?>/assets/images/global/imagem-produto.png">
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <div class="product-title">PORTÍFOLIO <span>DE FECHAMENTO DE SACADAS</span pan></div>
         </div>
     </div>
 </div>

@@ -31,7 +31,7 @@ html {
 }
 
 body {
-  font-size: 1.6rem; /* 10px a cada um 1rem*/
+  font-size: 1.7rem; /* 10px a cada um 1rem*/
 }
 
 h1,
@@ -41,6 +41,14 @@ h4,
 h5,
 h6 {
   font-family: "Oswald", sans-serif;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.6rem;
 }
 
 p {
@@ -79,6 +87,11 @@ p {
   color: #fff !important;
 }
 
+.top-menu-header .navbar-toggler {
+  border: 2px solid #fff;
+  color: #000 !important;
+}
+
 .top-menu-header .menu-item {
   padding-left: 15px !important;
   padding-right: 15px !important;
@@ -114,7 +127,6 @@ p {
 
 .top-home {
   background-image: url(assets/images/home/background-home.png);
-  height: 100vh;
   background-repeat: no-repeat;
   width: 100%;
   text-transform: uppercase !important;
@@ -124,6 +136,15 @@ p {
 .top-home .menu-item {
   padding-left: 15px !important;
   padding-right: 15px !important;
+}
+
+.top-home .navbar-toggler {
+  border: 2px solid #000;
+  color: #000 !important;
+}
+
+.top-home .navbar-collapse {
+  padding-top: 20px;
 }
 
 .top-home .current-menu-item {
@@ -179,6 +200,11 @@ ul.dropdown-menu.depth_0.show {
   font-size: 3.6rem;
   margin-bottom: 2rem;
   text-transform: uppercase;
+}
+
+.list-products-home button.btn.btn-light {
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
 .list-products-home .sub-title {
@@ -246,6 +272,57 @@ ul.dropdown-menu.depth_0.show {
   color: #fff;
 }
 
-.footer h3 {
-  font-size: 2.2rem;
+.product-title {
+  font-weight: 600;
+  font-size: 3.2rem;
+}
+
+.product-title span {
+  color: #bdbdbd;
+}
+
+.list-bullet li {
+  list-style: circle !important;
+}
+
+.content-fone-email {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 768px) {
+  .navbar > .container {
+    justify-content: center !important;
+  }
+
+  nav.navbar.fixed-top.navbar-expand-md.navbar-dark {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .navbar-toggler {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar > .container .navbar-collapse {
+    margin-top: 20px;
+  }
+
+  .navbar > .container .navbar-collapse .navbar-nav {
+    margin-top: 30px;
+  }
+
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-lg,
+  .navbar > .container-md,
+  .navbar > .container-sm,
+  .navbar > .container-xl,
+  .navbar > .container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center !important;
+  }
 }

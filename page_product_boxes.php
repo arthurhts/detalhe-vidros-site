@@ -12,33 +12,34 @@ Template Name: PRODUTO BOXES
     </div>
 </div>
 
-<div class="container content-page content-page-about">
+<div class="container content-page">
     <div class="row">
-        <div class="col-md-4 mb-4"><img src="<?php bloginfo('template_url'); ?>/assets/images/home/logo-topo-home.png">
-        </div>
-        <div class="col-md-8">
+        <div class="col-md-6">
             <section class="spacing-bottom">
-                <h3>SOBRE NÓS</h3>
-                A Detalhe Vidros surgiu da necessidade de seus fundadores em querer prestar um serviço diferente,
-                melhor, com preço justo, respeitando as normas técnicas e principalmente o cliente. Com pouco mais de 15
-                anos de experiência no segmento, nosso intuito é melhorar e modernizar o atendimento ao cliente do
-                início ao fim, oferecendo ideias e soluções inovadoras compatíveis com a sua realidade.
+                <div class="product-title">BOXES <span>DETALHE VIDROS</span pan></div>
+                Ao contrário do que muitos pensam, o box pode ser apenas uma instalação simples, mas também algo muito
+                mais rebuscado. Seguindo uma espessura mínima padrão, de acordo com as normas técnicas, executamos
+                projetos com portas de correr, abrir, até o teto, com roldanas aparente, entre outros.
             </section>
-            <section class="spacing-bottom">
-                <h3>MISSÃO</h3>
-                Realizar os sonhos e necessidades dos clientes por meio da execução de projetos arquitetônicos.
-            </section>
-            <section class="spacing-bottom">
-                <h3>VISÃO</h3>
-                Ser referência no segmento quando o assunto for vidros e espelhos e, principalmente ser lembrado por
-                nossos valores.
-            </section>
+            <section>
+                <ul class="list-bullet">
+                    <li>Padrão (de correr ou abrir);</li>
+                    <li>Fora de Padrão;</li>
+                    <li>Até o Teto;</li>
+                    <li>Com Roldanas Aparentes;</li>
+                    <li>Paraduchas;</li>
 
-            <section class="spacing-bottom">
-                <h3>VALORES</h3>
-                Por trás de cada projeto executado existe um ser humano que acreditou em nós e pagou pelo nosso serviço,
-                por esse motivo, compromisso, respeito, transparência, ética e disponibilidade são fundamentais.
+                </ul>
+
             </section>
+        </div>
+        <div class="col-md-6"><img class="img-fluid"
+                src="<?php bloginfo('template_url'); ?>/assets/images/global/imagem-produto.png">
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <div class="product-title">PORTÍFOLIO <span>DE BOXES</span pan></div>
         </div>
     </div>
 </div>

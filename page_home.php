@@ -49,9 +49,11 @@ window.addEventListener('scroll', function() {
     <div class="row content-top align-items-center">
         <div class="d-flex col-md-6 justify-content-center align-items-center"><img
                 src="<?php bloginfo('template_url'); ?>/assets/images/home/logo-topo-home.png"></div>
-        <div class="col-md-6 box-top"><span>A DETALHE VIDROS</span> POSSUI SOLUÇÕES
-            MODERNAS COM ALTA QUALIDADE
-            PARA SUA <span>OBRA, CASA OU EMPRESA</span></div>
+        <div class="d-flex col-md-6 justify-content-sm-center">
+            <div class="box-top"><span>A DETALHE VIDROS</span> POSSUI SOLUÇÕES
+                MODERNAS COM ALTA QUALIDADE
+                PARA SUA <span>OBRA, CASA OU EMPRESA</span></div>
+        </div>
     </div>
 </section>
 
@@ -83,6 +85,18 @@ window.addEventListener('scroll', function() {
         <div class="d-flex item product-espelho">
             <div class="overlay-black">
                 <div class="content">
+                    <h2>Fechamento de Sacadas</h2>
+                    <p class="sub-title">Instalações super modernas que garantem além de proteção, beleza e sofisticação
+                        ao ambiente.
+                    </p>
+                    <button type="button" class="btn btn-light">SAIBA MAIS</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex item product-espelho">
+            <div class="overlay-black">
+                <div class="content">
                     <h2>Fechamento de Varadas</h2>
                     <p class="sub-title">Produto também personalizável destinado principalmente a apartamentos, podendo
                         também ser aplicado a varanda de residências.
@@ -95,7 +109,7 @@ window.addEventListener('scroll', function() {
         <div class="d-flex item product-espelho">
             <div class="overlay-black">
                 <div class="content">
-                    <h2>Fechamento de Sacadas</h2>
+                    <h2>Escadas e guarda corpos</h2>
                     <p class="sub-title">Instalações super modernas que garantem além de proteção, beleza e sofisticação
                         ao ambiente.
                     </p>

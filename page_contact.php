@@ -14,34 +14,33 @@ Template Name: PAGINA CONTATO
 
 <div class="container content-page content-page-about">
     <div class="row">
-        <div class="col-md-4 mb-4"><img src="<?php bloginfo('template_url'); ?>/assets/images/home/logo-topo-home.png">
+        <div class="col-md-6">
+            <h2>MENSAGEM</h2>
         </div>
-        <div class="col-md-8">
-            <section class="spacing-bottom">
-                <h3>SOBRE NÓS</h3>
-                A Detalhe Vidros surgiu da necessidade de seus fundadores em querer prestar um serviço diferente,
-                melhor, com preço justo, respeitando as normas técnicas e principalmente o cliente. Com pouco mais de 15
-                anos de experiência no segmento, nosso intuito é melhorar e modernizar o atendimento ao cliente do
-                início ao fim, oferecendo ideias e soluções inovadoras compatíveis com a sua realidade.
-            </section>
-            <section class="spacing-bottom">
-                <h3>MISSÃO</h3>
-                Realizar os sonhos e necessidades dos clientes por meio da execução de projetos arquitetônicos.
-            </section>
-            <section class="spacing-bottom">
-                <h3>VISÃO</h3>
-                Ser referência no segmento quando o assunto for vidros e espelhos e, principalmente ser lembrado por
-                nossos valores.
-            </section>
-
-            <section class="spacing-bottom">
-                <h3>VALORES</h3>
-                Por trás de cada projeto executado existe um ser humano que acreditou em nós e pagou pelo nosso serviço,
-                por esse motivo, compromisso, respeito, transparência, ética e disponibilidade são fundamentais.
-            </section>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-12">
+                    <h2>ENDEREÇO</h2>
+                    Rua Prof. Renato Alves de Godoy, 150 - Nova Aliança</br>
+                    Ribeirão Preto – SP</br>
+                    CEP: 14026-592</br>
+                    Edifício Jéssica Campez</br>
+                </div>
+            </div>
+            <div class="row content-fone-email">
+                <div class="col-6">
+                    <h2>TELEFONE</h2>
+                    (16) 99109-2354
+                </div>
+                <div class="col-6">
+                    <h2>EMAIL</h2>
+                    CONTATO@DETALHEVIDROS.COM.BR
+                </div>
+            </div>
+            <img class="mt-4 img-fluid"
+                src="<?php bloginfo('template_url'); ?>/assets/images/global/contato-detalhe-vidros.png">
         </div>
     </div>
 </div>
-
 
 <?php get_footer(); ?>
