@@ -65,7 +65,7 @@ window.addEventListener('scroll', function() {
                     <h2>Espelhos</h2>
                     <p class="sub-title">Material altamente delicado, sofisticado e personalizável.
                     </p>
-                    <button type="button" class="btn btn-light">SAIBA MAIS</button>
+                    <a href="/espelhos" type="button" class="btn btn-light">SAIBA MAIS</a>
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@ window.addEventListener('scroll', function() {
                     <p class="sub-title">Ao contrário do que muitos pensam, o box pode ser apenas uma instalação
                         simples, mas também algo muito mais rebuscado.
                     </p>
-                    <button type="button" class="btn btn-light">SAIBA MAIS</button>
+                    <a href="/boxes" type="button" class="btn btn-light">SAIBA MAIS</a>
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@ window.addEventListener('scroll', function() {
                     <p class="sub-title">Instalações super modernas que garantem além de proteção, beleza e sofisticação
                         ao ambiente.
                     </p>
-                    <button type="button" class="btn btn-light">SAIBA MAIS</button>
+                    <a href="/fechamento-de-sacada" type="button" class="btn btn-light">SAIBA MAIS</a>
                 </div>
             </div>
         </div>
@@ -101,7 +101,7 @@ window.addEventListener('scroll', function() {
                     <p class="sub-title">Produto também personalizável destinado principalmente a apartamentos, podendo
                         também ser aplicado a varanda de residências.
                     </p>
-                    <button type="button" class="btn btn-light">SAIBA MAIS</button>
+                    <a href="/fechamento-de-varanda" type="button" class="btn btn-light">SAIBA MAIS</a>
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@ window.addEventListener('scroll', function() {
                     <p class="sub-title">Instalações super modernas que garantem além de proteção, beleza e sofisticação
                         ao ambiente.
                     </p>
-                    <button type="button" class="btn btn-light">SAIBA MAIS</button>
+                    <a href="/escadas-e-guarda-corpo" type="button" class="btn btn-light">SAIBA MAIS</a>
                 </div>
             </div>
         </div>
@@ -125,7 +125,7 @@ window.addEventListener('scroll', function() {
                     <p class="sub-title">O mais comercializado e um dos mais resistentes, o vidro temperado pode ser
                         aplicado de várias formas, fabricado em diversas cores e espessuras.
                     </p>
-                    <button type="button" class="btn btn-light">SAIBA MAIS</button>
+                    <a href="/vidros-temperados" type="button" class="btn btn-light">SAIBA MAIS</a>
                 </div>
             </div>
         </div>
@@ -137,7 +137,7 @@ window.addEventListener('scroll', function() {
                     <p class="sub-title">Um dos vidros mais seguros que existem no mercado, sua aplicação no segmento da
                         construção civil vem aumentando cada vez mais.
                     </p>
-                    <button type="button" class="btn btn-light">SAIBA MAIS</button>
+                    <a href="/vidros-laminados" type="button" class="btn btn-light">SAIBA MAIS</a>
                 </div>
             </div>
         </div>
